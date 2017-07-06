@@ -1,10 +1,10 @@
 {
   "name": "hope-fe-cli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "cli for hope frendend project",
   "main": "bin/index.js",
   "bin": {
-    "hope-fe-cli": "./bin/index.js"
+    "hope": "./bin/index.js"
   },
   "preferGlobal": true,
   "scripts": {
