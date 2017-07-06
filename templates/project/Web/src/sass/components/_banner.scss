@@ -1,0 +1,5 @@
+.banner{
+  height:94px;
+  padding:23px 0;
+  @include bg-center("../img/banner.png");
+}

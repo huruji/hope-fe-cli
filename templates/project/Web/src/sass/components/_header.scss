@@ -1,0 +1,11 @@
+.header{
+  $height:22px;
+  padding:20px 0;
+  height: $height;
+  &-title{
+    font-family:$global-zh-title-font-family;
+    font-size:24px;
+    text-align: center;
+  }
+}
+
