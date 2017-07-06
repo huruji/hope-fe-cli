@@ -6,8 +6,7 @@ const vfs = require('vinyl-fs');
 const which = require('which');
 const spawn = require('child_process').spawn;
 const chalk = require('chalk');
-/*
-*/
+
 
 function findSource() {
   const downSources = ['cnpm', 'npm'];
