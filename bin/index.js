@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const program = require('commander');
 const fse = require('fs-extra');
 const fs = require('fs');
