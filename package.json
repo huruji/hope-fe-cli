@@ -4,7 +4,7 @@
   "description": "cli for hope frendend project",
   "main": "bin/index.js",
   "bin": {
-    "hope-fe-cli": "./bin/index"
+    "hope-fe-cli": "./bin/index.js"
   },
   "preferGlobal": true,
   "scripts": {
