@@ -6,7 +6,9 @@ function printHelp() {
   printLogo();
   console.log('  Commands:');
   console.log();
-  console.log('     i, sass-ui [project]  init a front end project');
+  console.log('     project [project]  init a full project');
+  console.log();
+  console.log('     fe [project]  init a front end project');
   console.log();
   console.log('  All commands can be run with -h (or --help) for more information.')
 }
