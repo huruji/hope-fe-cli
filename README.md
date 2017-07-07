@@ -34,5 +34,8 @@ hope project [projectName]
 hope fe [projectName]
 ```
 
-
+前端人员在项目文件夹下使用以下命令开启整个gulp工作流
+```sh
+npm run start
+```
 更多关于文件目录的使用以及前端开发，可以查看[文档](./doc/project.md)
