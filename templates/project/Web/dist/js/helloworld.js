@@ -1,0 +1,1 @@
+"use strict";var hello=function(o){o.addEventListener(function(){console.log("hello, world")},!1)};
