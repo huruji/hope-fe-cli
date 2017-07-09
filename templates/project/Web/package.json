@@ -1,15 +1,13 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "gulp-babel": "^6.1.2",
     "browser-sync": "^2.18.12",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
