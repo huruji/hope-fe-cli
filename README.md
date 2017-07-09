@@ -1,4 +1,3 @@
-# hope-fe-cli
 <p align="center">
     <img src="./doc/img/logo.png" alt="logo"/> 
 </p>
@@ -40,3 +39,7 @@ hope fe [projectName]
 npm run start
 ```
 更多关于文件目录的使用以及前端开发，可以查看[文档](./doc/project.md)
+
+## 版本更新日志
+
+[版本更新日志](./CHANGELOG.md)
