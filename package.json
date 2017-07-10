@@ -1,7 +1,7 @@
 {
   "name": "hope-fe-cli",
   "version": "0.1.1",
-  "description": "cli for hope frendend project",
+  "description": "cli for hope frondend project",
   "main": "bin/index.js",
   "bin": {
     "hope": "./bin/index.js"
