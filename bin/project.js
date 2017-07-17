@@ -34,7 +34,7 @@ if(!program.args[0]) {
         jsonfile.writeFile(packageJson, obj, function(err) {
           if(err) return console.log(err);
           console.info('finnished created floders and files ');
-          install(join(process.cwd(), program.args[0]));
+          install(join(process.cwd(), program.args[0], 'Web'));
         })
       });
     });
