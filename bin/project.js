@@ -7,6 +7,7 @@ const mkdirSync = require('fs').mkdirSync;
 const vfs = require('vinyl-fs');
 const install = require('./install.js');
 const chalk = require('chalk');
+const jsonfile = require('jsonfile');
 
 program
   .parse(process.argv);
@@ -27,7 +28,14 @@ if(!program.args[0]) {
   vfs.src(['**/*'], {cwd: join(__dirname, '../templates/project'), cwdbase:true, dot: true})
     .pipe(vfs.dest(dest))
     .on('end', function() {
-      console.info('finnished created floders and files ');
-      install(join(process.cwd(), program.args[0], 'Web'));
+      const packageJson = join(dest, 'Web', 'package.json');
+      jsonfile.readFile(packageJson, function(err, obj) {
+        obj.name = program.args[0];
+        jsonfile.writeFile(packageJson, obj, function(err) {
+          if(err) return console.log(err);
+          console.info('finnished created floders and files ');
+          install(join(process.cwd(), program.args[0]));
+        })
+      });
     });
 }

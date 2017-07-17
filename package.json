@@ -1,6 +1,6 @@
 {
   "name": "hope-fe-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "cli for hope frondend project",
   "main": "bin/index.js",
   "bin": {
@@ -28,6 +28,7 @@
     "chalk": "^2.0.1",
     "commander": "^2.11.0",
     "fs-extra": "^3.0.1",
+    "jsonfile": "^3.0.1",
     "vinyl-fs": "^2.4.4",
     "which": "^1.2.14"
   }
