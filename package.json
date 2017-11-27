@@ -31,5 +31,10 @@
     "jsonfile": "^3.0.1",
     "vinyl-fs": "^2.4.4",
     "which": "^1.2.14"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "install": "^0.10.1"
   }
 }
